@@ -7,32 +7,29 @@ Wellness website that will search API's to find closest exercise classes and cal
 2- Scroll down and enter information for Wellness Place Finder. Click submit. 
 3- Enter information for BMI calculator. Click submit. 
 # Technologies used:
-API 1: Foursquare Venue Search
-API 2: Rapid API's BMI Calculator
-Html
-CSS
-Bootstrap
-Materialize
-Google fonts
-React
-Javascript
-JQuery
+API 1: Foursquare Venue Search\
+API 2: Rapid API's BMI Calculator\
+Html\
+CSS\
+Bootstrap\
+Materialize\
+Google fonts\
+React\
+Javascript\
+JQuery\
 Epidemic sounds
 # Known bugs
 There are no known bugs
-# Project Mockup:
-![mock up](./assets/mockup1.png)
-![mock up](./assets/mockup2.png)
-![mock up](./assets/mockup3.png)
 # Team members and responsibilities:
-Hanna: Group leader, Postman, Javascript, Foursquare API
-Menuka: html, Material UI, CSS, music
-Mengyue: Javascript, BMI API, JQuery, CSS, mockup
+Hanna: Group leader, Postman, Javascript, Foursquare API\
+Menuka: html, Material UI, CSS, music\
+Mengyue: Javascript, BMI API, JQuery, CSS, mockup\
 Kyle: API research, Postman, html, Presentation, README
 # Website Screenshot
-![screenshot](./assets/GW Project 1.png)
+![screenshot](./assets/website-1.png)
+![screenshot](./assets/website-2.jpg)
 # Website Deployment links
-Repository : https://github.com/kinziva/Project1G4
-Application : https://kinziva.github.io/Project1G4/
+Repository : https://github.com/mengyue-z/Wellness-Place-Finder
+Application deployed page : https://mengyue-z.github.io/Wellness-Place-Finder/.
 
 

@@ -1,7 +1,7 @@
 $(document).ready(function () {
   //variables
   const apiKey =
-    "client_id=X3VSLYNVJXHUU2SM3CEVP5YLSO4SHPVJDGBCUNSP554LFE3I&client_secret=P1M2Y1HRN23WODIQ4XZJ3ZRVSHOVHB0CUJQ5PK4A1V2VKHVD&v=20200101";
+    "client_id=QIH15M2XMPGDK24WK4VQUQOGOTCFXL3QPXV1CHHX0UAEVUPR&client_secret=HIJZJFJHBYPE5IPJ00D4WFSQMHX4RDYUGFU4L3MGHZJAWREP&v=20200101";
     const placeDisplay = document.querySelectorAll(".place");
 
   //find place with event listener submit button click
