@@ -27,9 +27,9 @@ Mengyue: Javascript, BMI API, JQuery, CSS, mockup\
 Kyle: API research, Postman, html, Presentation, README
 # Website Screenshot
 ![screenshot](./assets/website-1.png)
-![screenshot](./assets/website-2.jpg)
+![screenshot](./assets/website-2.JPG)
 # Website Deployment links
-Repository : https://github.com/mengyue-z/Wellness-Place-Finder
-Application deployed page : https://mengyue-z.github.io/Wellness-Place-Finder/.
+* The URLs of the GitHub repositories: https://github.com/mengyue-z/Wellness-Place-Finder\
+* The URLs of the deployed website: https://mengyue-z.github.io/Wellness-Place-Finder/
 
 
