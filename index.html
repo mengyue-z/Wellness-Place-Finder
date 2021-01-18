@@ -5,153 +5,66 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Wellness</title>
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Quattrocento+Sans:ital@1&family=Sarabun:wght@100&display=swap" rel="stylesheet">
-
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Sarabun:wght@100&display=swap" rel="stylesheet">
-  
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
   <link rel="stylesheet" href="reset.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href='style.css'>
 </head>
 
 <body>
+  <div class="hero">
+    <div class="hero-text">
+      <h1>WELLNESS PLACE FINDER</h1>
+      <hr>
+      <p>WE HELP YOU KEEP FIT</p>
+    </div>
+    <img src="./assets/main-page-pic.jpg" class="hero-image">
+  </div>
 
-  <p>Click on the play button to play a Fitness music</p>
-    <audio controls autoplay>
-      <source src="./assets/ES_Down Queens Boulevard - Aesyme.mp3" type="audio/mpeg">
-    </audio>
-
-      <div class ="specialeffect">
-        <p id = "titlepage"> <span>Wellness Finder</span></p>
-      </div>
- 
-  <div class="row">
-    
-    <div id="imageone"> <img class="responsive-img"
-        src="https://thumbs.dreamstime.com/b/pushup-fitness-man-exercising-outdoor-gym-doing-workout-push-up-banner-panorama-young-healthy-male-athlete-pushup-fitness-man-199610490.jpg"
-        alt="mainimage" style= "width:100%">
+  <div class="row section-2">
+    <div class="col-4 wellness-pics">
+      <img src="./assets/pilates.jpg" class="img-fluid">
+    </div>
+    <div class="col-4 wellness-pics">
+      <img src="./assets/yoga.jpg" class="img-fluid">
       
-
+    </div>
+    <div class="col-4 wellness-pics">
+      <img src="./assets/meditation.jpg" class="img-fluid">
     </div>
   </div>
-  <h1>Keep Fit</h1>
-  <br>
-  <h2>We help you to stay fit. Choose Your Fitness Destination </h2>
-  <h2> Calculate your BMI . Find the best fitness place near you. </h2>
-  <br>
-
-  <div class="row">
-    <div class="column">
-      <img src="./assets/yoga.jpg" alt="Yoga" style="width:100%" class="changeImg" id="img1">
-    </div>
-    <div class="column">
-      <img src="./assets/pilates.jpg" alt="Pilates" style="width:100%" class="changeImg" id="img2">
-    </div>
-    <div class="column">
-      <img src="./assets/meditation.jpg" alt="Meditation" style="width:100%" class="changeImg" id="img3">
-    </div>
+  <div class="description">
+    <h1>FIND THE BEST LOCAL WELLNESS PLACES</h1>
+    <hr>
+    <p>YOGA, PILATES, GYM AND WEIGHT LOSS CENTERS </p>
   </div>
-  <!-- 3images banner ends -->
-  <br>
-  <!-- This is for finding fitness area -->
   <div class="row">
-    <div class="col-md-4">
-      <h1>Choose your Fitness Destination</h1>
-      <br>
-
-      <form action="/action_page.php">
-
-        <input type="text" id="city" placeholder="Enter City Name">
-        <br>
-        <br>
-        <br>
-
-        <div id="optionsForCls" class="input-group mb-3">
-
-          <select class="form-select" id="inputGroupSelect02">
-            <option selected>Choose your fitess style </option>
-            <option value="Yoga">Yoga Studio</option>
-            <option value="Pilates">Pilates</option>
-            <option value="Gym">Gym</option>
-            <option value="Weight Loss Centers">Weight Loss Centers</option>
-          </select>
-          <br>
-          <label class="input-group-text" for="inputGroupSelect02">Options</label>
-        </div>
-        <!-- select div ends -->
-        <br>
-        <br>
-        <br>
-
-
-        <!-- search buttons -->
-
-        <input type="submit" value="Submit" id="place-btn">
-        <input type="reset" value="Reset" id="place-reset">
-
-
-      </form>
-
-    </div>
-    <!-- find place col ends -->
-
-
-
-    <!-- search output  for places -->
-
-    <div class="col-md-4 placesDisplay" id="placesOutput">
-      <div class="place bg-light  ml-3 mb-3 rounded"></div>
-      <div class="place bg-light  ml-3 mb-3 rounded"></div>
-      <div class="place bg-light  ml-3 mb-3 rounded"></div>
-      <div class="place bg-light  ml-3 mb-3 rounded"></div>
-
-    </div>
-
-
-    <!--BMI -->
-
-    <div class="col-md-4">
-      <h1> BMI Calculator </h1>
-      <form action="/action_page.php">
-
-        <!-- <label for="age" class="form-label">Age</label> -->
-        <input type="text" id="bmi-age" name="age" placeholder="Enter Your Age">
-
-
-        <!-- <label for="weight"class="form-label">Weight</label> -->
-        <input type="text" id="bmi-weight" name="weight" placeholder="Enter your weight in Lbs ">
-
-        <!-- <label for="height" class="form-label">Height</label> -->
-        <input type="text" id="bmi-height-feet" name="height" placeholder="Height in Feet">
-        <input type="text" id="bmi-height-inches" name="height" placeholder="Inches">
-
-        <div  id="bmi-result"></div>
-
-        </select>
-      </form>
-      <div class="row">
-
+   <div class="col-md-4">
+     <form>
+      <div class="mb-3">
+        <label for="age" class="form-label">Age</label>
+        <input type="text" class="form-control" id="bmi-age" placeholder="Age">
       </div>
+      <div class="mb-3">
+        <label for="weight" class="form-label">Weight</label>
+        <input type="text" class="form-control" id="bmi-weight" placeholder="Weight in lbs">
+      </div>
+      <div class="mb-3">
+        <label for="height" class="form-label">Weight</label>
+        <input type="text" class="form-control" id="bmi-height-feet" placeholder="Feet">
+        <input type="text" class="form-control" id="bmi-height-inches" placeholder="Inches">
+      </div>
+     </form>
+     <div  id="bmi-result"></div>
+     <button type="submit" class="btn btn-primary" id="bmi-btn">Submit</button>
+     <button type="reset" class="btn btn-primary" id="bmi-reset">Reset</button>
+    
 
-      <input type="submit" value="Submit" id="bmi-btn"> <input type="reset" value="Reset"id ="bmi-reset">
-
-    </div>
-    <!-- bmi col ends -->
+   </div>
+  </div>
 
 
-    <div>
-      <!-- place and bmi row ends -->
-
-
-
-      <footer class="footer nav sticky-bottom justify-content-center">
-        Project 1 Group 4
-      </footer>
 
 
       <!-- jQuery CDN -->
@@ -159,13 +72,10 @@
 
       <script src="https://code.jquery.com/jquery-3.1.1.min.js"
         src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-
-
+     <!-- Bootstrap script -->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+     <!-- Local Script -->
       <script src="./javascript.js"></script>
-
-
-      <!-- Local Script -->
-
 
 </body>
 
