@@ -8,7 +8,7 @@ We are hoping that the information we provide will be of use to the user's healt
 # Setup/ Installation requirements
 1- Click on website at bottom of README.md\
 2- Scroll down and enter information for Wellness Place Finder. Click submit. \
-3- Enter information for BMI calculator. Click submit. \
+3- Enter information for BMI calculator. Click submit. 
 # Technologies used:
 API 1: Foursquare Venue Search\
 API 2: Rapid API's BMI Calculator\
